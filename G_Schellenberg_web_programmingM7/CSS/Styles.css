@@ -1,0 +1,166 @@
+/* link colors */
+a:link {
+  color: #a3a3a3;
+}
+
+a:visited {
+  color: #316a9c;
+}
+a:hover {
+  color: #791837;
+  text-decoration: none;
+}
+a:focus {
+  color: #142836;
+}
+a:active {
+  color: #3d4b61;
+}
+
+/* link colors in main */
+main a:link {
+  color: #b8b8b8;
+}
+main a:visited {
+  color: #316a9c;
+}
+main a:hover {
+  color: #4b49d1;
+  text-decoration: none;
+}
+main a:focus {
+  color: #5a7588;
+}
+main a:active {
+  color: #3d4b61;
+}
+
+/* navigation link colors */
+nav a:link {
+  color: #c9c8c8;
+  text-decoration: none;
+  background-color: #30298f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: "Texturina", serif;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #df517e;
+  background-color: #252a44;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a:link {
+  display: inline-block;
+}
+
+footer a:link {
+  color: #5e700e;
+}
+footer a:visited {
+  color: #257ecc;
+}
+footer a:hover {
+  color: #b82c2c;
+  text-decoration: none;
+}
+footer a:focus {
+  color: #3f7eaa;
+}
+footer a:active {
+  color: #1f2a3b;
+}
+
+/*list dots change*/
+ul {
+  list-style-type: circle;
+}
+/*list changes*/
+
+/*header*/
+header.HeaderContent {
+  color: #c9c8c8;
+  border-bottom: solid#352c2c;
+  border-color: #304f66;
+  border-width: 4px;
+}
+
+main {
+  padding: 20px;
+}
+
+/*main body*/
+.body_content {
+  color: #c9c8c8;
+  background-color: #15181d;
+  border: solid rgb(255, 146, 146) 2px;
+  font-size: 16px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", serif;
+}
+
+.buttons {
+  padding: 5px;
+  line-height: 10px;
+}
+
+/*heading*/
+h1 {
+  font-size: 38px;
+  font-family: "Texturina", serif;
+  font-weight: bold;
+  line-height: normal;
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+  .rifles {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+
+.gunCatalog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.guns {
+  text-align: center;
+  width: 475px;
+  height: 375px;
+}
+
+div {
+  text-align: center;
+}
+/*foot*/
+footer {
+  background-color: #093250;
+  position: absolute;
+}
